@@ -1,0 +1,9 @@
+# A config with keys out of order.
+
+zebra: 1
+apple: 2
+mango:
+  zebra: 1
+  apple: 2
+
+banana: 3

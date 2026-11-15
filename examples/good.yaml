@@ -1,0 +1,15 @@
+# A config with sorted keys — it passes.
+
+app:
+  name: myapp
+  port: 3000
+  version: 1.2.3
+
+database:
+  host: localhost
+  name: myapp
+  port: 5432
+
+logging:
+  format: json
+  level: info

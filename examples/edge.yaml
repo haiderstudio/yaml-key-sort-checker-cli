@@ -1,0 +1,21 @@
+# Edge cases: sequences, block scalars, flow, quoted keys.
+
+Apple: 1
+banana: 2
+Cherry: 3
+
+note: |
+  zebra: this is text, not a key
+  apple: so is this
+
+quoted:
+  'alpha': 2
+  "Beta": 1
+
+servers:
+  - address: example.com
+    name: web
+  - address: example.org
+    name: api
+
+tags: [zebra, apple]
